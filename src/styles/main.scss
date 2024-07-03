@@ -1,0 +1,42 @@
+@use 'hero';
+@use 'content';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    list-style-type: none;
+    font-family: Bona Nova SC;
+}
+
+.btn{
+    border: 0;
+    padding: 8px;
+    background-color: rgb(54, 0, 153);
+    border-radius: 15px;
+    font-size: 32px;
+    font-weight: bold;
+
+    &:hover{
+        cursor: pointer;
+        background-color: lighten($color: rgb(54, 0, 153), $amount: 4);
+    }
+}
+
+.text{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width:640px) {
+    .text{
+        font-size: 20px;
+    }
+
+    .btn{
+        font-size: 24px;
+    }
+}

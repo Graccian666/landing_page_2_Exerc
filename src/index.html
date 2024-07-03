@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./imgs/hero_logo.png">
+            <h1 class="hero__title">Contagem regressiva para o lançamento de Zelda Echoes of Wisdom</h1>
+            <span id="timer" class="hero__contador">30d 20h 10m 5s</span>
+
+            <div class="bar">
+                <ul class="bar__list">
+                    <li class="bar__list__item">
+                        <p class="text">Compre já na pré-venda</p>
+                    </li>
+
+                    <li>
+                        <a class="btn">
+                            Comprar
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <div data-aos="fade-down" class="container">
+            <h2 class="content__title">Personagem Principal</h2>
+            <p class="content__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex inventore illum. Fugiat sit, officiis nihil voluptatem totam quo vel. Aspernatur dignissimos voluptates atque eos earum accusantium mollitia sit accusamus.
+            </p>
+        </div>
+        <img data-aos="fade-down" class="content__image" src="./imgs/content_personagem.avif">
+    </section>
+
+    <section class="content content--2">
+        <div data-aos="fade-down" class="container">
+            <h2 class="content__title">Console edição especial</h2>
+            <p class="content__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex inventore illum. Fugiat sit, officiis nihil voluptatem totam quo vel. Aspernatur dignissimos voluptates atque eos earum accusantium mollitia sit accusamus.
+            </p>
+        </div>
+        <img data-aos="fade-down" class="content__image" src="./imgs/hero_image_2.avif">
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
